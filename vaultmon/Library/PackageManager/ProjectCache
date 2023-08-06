@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638268755733106899
-    m_Hash: 2405565787
+      ticks: 638268832967107271
+    m_Hash: 3916685435
   m_LockFileStatus:
     m_FilePath: C:/Users/Public/Documents/GitHub/vaultmon/vaultmon/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638268756186696863
-    m_Hash: 4289326872
+      ticks: 638268833442185039
+    m_Hash: 4075996815
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Public/Documents/GitHub/vaultmon/vaultmon/Packages
-m_EditorVersion: 2021.3.25f1 (68ef2c4f8861)
+m_EditorVersion: 2021.3.29f1 (204d6dc9ae1c)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@2.0.4
+- packageId: com.unity.collab-proxy@2.0.5
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.collab-proxy@2.0.4
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.collab-proxy@2.0.5
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -36,7 +36,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: asset
+  type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting plasticscm.com.
@@ -113,7 +113,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 2.0.4
     - 2.0.5
     - 2.0.7
     - 2.1.0-preview.3
@@ -145,25 +144,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638176024310000000
+  datePublishedTicks: 638218079810000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
+    revision: 7f68049e8cae5b51ad0d17cc01b8c6e802bf3866
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.0.5
     nextVersion: 
-- packageId: com.unity.feature.2d@1.0.0
+- packageId: com.unity.feature.2d@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.feature.2d@1.0.0
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.feature.2d@2.0.0
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -182,10 +181,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 2.0.0
     compatible:
-    - 1.0.0
-    verified: 1.0.0
+    - 2.0.0
+    verified: 2.0.0
   dependencies:
   - name: com.unity.2d.animation
     version: default
@@ -201,9 +200,11 @@ m_ResolvedPackages:
     version: default
   - name: com.unity.2d.tilemap.extras
     version: default
+  - name: com.unity.2d.aseprite
+    version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.10
+    version: 7.0.11
   - name: com.unity.2d.common
     version: 6.0.6
   - name: com.unity.2d.sprite
@@ -237,10 +238,12 @@ m_ResolvedPackages:
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 2.2.5
+    version: 2.2.6
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.2d.aseprite
     version: 1.0.0
   keywords: []
   registry:
@@ -251,7 +254,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -262,14 +265,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 2.0.0
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.21
+- packageId: com.unity.ide.rider@3.0.24
   testable: 0
   isDirectDependency: 1
-  version: 3.0.21
+  version: 3.0.24
   source: 1
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.ide.rider@3.0.21
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -278,7 +281,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -325,8 +328,6 @@ m_ResolvedPackages:
     - 3.0.22
     - 3.0.24
     compatible:
-    - 3.0.21
-    - 3.0.22
     - 3.0.24
     verified: 3.0.24
   dependencies:
@@ -344,18 +345,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638175749180000000
+  datePublishedTicks: 638221653400000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: bb7732dcafe867368246b7661dda05368b74dd8e
+    revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
-    version: 3.0.21
+    version: 3.0.24
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
@@ -410,7 +411,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -426,7 +427,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
@@ -488,7 +489,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -501,12 +502,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.11
+- packageId: com.unity.render-pipelines.universal@12.1.12
   testable: 0
   isDirectDependency: 1
-  version: 12.1.11
+  version: 12.1.12
   source: 2
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.render-pipelines.universal@12.1.11
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.render-pipelines.universal@12.1.12
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -569,26 +570,26 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.11
+    - 12.1.12
     compatible:
-    - 12.1.11
-    verified: 12.1.11
+    - 12.1.12
+    verified: 12.1.12
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 12.1.12
   - name: com.unity.shadergraph
-    version: 12.1.11
+    version: 12.1.12
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 12.1.12
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -600,7 +601,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.11
+    version: 12.1.12
   - name: com.unity.searcher
     version: 4.9.1
   keywords:
@@ -629,14 +630,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.11
+    version: 12.1.12
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.31
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.31
+  version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -698,7 +699,6 @@ m_ResolvedPackages:
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.1.31
     - 1.1.33
     - 1.3.0
     - 1.3.1
@@ -738,18 +738,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637804266210000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
-    version: 1.1.31
+    version: 1.1.33
     nextVersion: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
@@ -909,7 +909,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1073,7 +1073,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638182037450000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.6/manual/index.html
@@ -3065,7 +3065,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3133,7 +3133,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
   documentationUrl: 
@@ -3321,7 +3321,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638150963640000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
@@ -3334,12 +3334,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.6.6
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.11
+- packageId: com.unity.render-pipelines.core@12.1.12
   testable: 0
   isDirectDependency: 0
-  version: 12.1.11
+  version: 12.1.12
   source: 2
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.render-pipelines.core@12.1.11
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.render-pipelines.core@12.1.12
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3458,10 +3458,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.11
+    - 12.1.12
     compatible:
-    - 12.1.11
-    verified: 12.1.11
+    - 12.1.12
+    verified: 12.1.12
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3500,14 +3500,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.11
+    version: 12.1.12
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.11
+- packageId: com.unity.shadergraph@12.1.12
   testable: 0
   isDirectDependency: 0
-  version: 12.1.11
+  version: 12.1.12
   source: 2
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.shadergraph@12.1.11
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.shadergraph@12.1.12
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3623,18 +3623,18 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 12.1.11
+    - 12.1.12
     compatible:
-    - 12.1.11
-    verified: 12.1.11
+    - 12.1.12
+    verified: 12.1.12
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 12.1.12
   - name: com.unity.searcher
     version: 4.9.1
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.11
+    version: 12.1.12
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3667,14 +3667,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.11
+    version: 12.1.12
     nextVersion: 
-- packageId: com.unity.2d.animation@7.0.10
+- packageId: com.unity.2d.animation@7.0.11
   testable: 0
   isDirectDependency: 0
-  version: 7.0.10
+  version: 7.0.11
   source: 1
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.2d.animation@7.0.10
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.2d.animation@7.0.11
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3805,7 +3805,6 @@ m_ResolvedPackages:
     - 10.0.1
     - 10.0.2
     compatible:
-    - 7.0.10
     - 7.0.11
     verified: 7.0.11
   dependencies:
@@ -3849,18 +3848,18 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638140403120000000
+  datePublishedTicks: 638194782730000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@7.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 2dba3153b5c4ffa75993dfca0bd0df8cbc28809c
+    revision: 9cc2f2e9b975c4194859b8922cb13f1d9b4bff7d
     path: 
   unityLifecycle:
-    version: 7.0.10
+    version: 7.0.11
     nextVersion: 
 - packageId: com.unity.2d.pixel-perfect@5.0.3
   testable: 0
@@ -4044,7 +4043,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 7.0.10
+    version: 7.0.11
   - name: com.unity.2d.common
     version: 6.0.6
   - name: com.unity.2d.sprite
@@ -4077,7 +4076,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638067887380000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@6.0/manual/index.html
@@ -4295,7 +4294,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638140403060000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@7.0/manual/index.html
@@ -4359,12 +4358,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.2.5
+- packageId: com.unity.2d.tilemap.extras@2.2.6
   testable: 0
   isDirectDependency: 0
-  version: 2.2.5
+  version: 2.2.6
   source: 1
-  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.5
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.6
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -4373,7 +4372,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: asset
+  type: assets
   description: '2D Tilemap Extras is a package that contains extra scripts for use
     with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
     the Tilemap feature.
@@ -4427,7 +4426,6 @@ m_ResolvedPackages:
     - 4.0.0
     - 4.0.1
     compatible:
-    - 2.2.5
     - 2.2.6
     verified: 2.2.6
   dependencies:
@@ -4464,18 +4462,104 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638140403150000000
+  datePublishedTicks: 638234725840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@2.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 0c2229262e21f917bff8c9669b96e2a3147428dd
+    revision: 0bf9be926d2a993b13474925561239fa0d83ef5a
     path: 
   unityLifecycle:
-    version: 2.2.5
+    version: 2.2.6
+    nextVersion: 
+- packageId: com.unity.2d.aseprite@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 1
+  resolvedPath: C:\Users\Public\Documents\GitHub\vaultmon\vaultmon\Library\PackageCache\com.unity.2d.aseprite@1.0.0
+  assetPath: Packages/com.unity.2d.aseprite
+  name: com.unity.2d.aseprite
+  displayName: 2D Aseprite Importer
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: asset
+  description: 2D Aseprite Importer is a package which enables the import of .aseprite
+    files from the Pixel Art tool Aseprite.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 6.0.6
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.2d.common
+    version: 6.0.6
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  keywords:
+  - 2d
+  - Aseprite
+  - Pixel
+  - Art
+  - assetimporter
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638203510100000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
+    revision: 419b070b489a77cf611d9d4ebff29eed4ef0bea7
+    path: 
+  unityLifecycle:
+    version: 1.0.0
     nextVersion: 
 - packageId: com.unity.searcher@4.9.1
   testable: 0
@@ -4531,7 +4615,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637695653650000000
   documentationUrl: 
@@ -4653,7 +4737,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638035874770000000
   documentationUrl: 
@@ -4724,7 +4808,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637817447940000000
   documentationUrl: 

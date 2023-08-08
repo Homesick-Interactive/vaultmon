@@ -8,29 +8,43 @@ public class CombatPrototype : MonoBehaviour
 {
     public BattleState state;
 
-    void loadBattleHud();
-
-    void spriteEnter();
-
-    void actionChoice();
-
-    void resolveTurn();
-
-    void autoResolveTurn();
-
-    void endBattle();
-
     void Start()
     {
         state = BattleState.START;
 
-        loadBattleHud();
+        LoadBattleHud();
         //load character sprites, fade in slide in
 
     }
 
-    void loadBattleHud() //loads battle UI and background, then calls spriteEnter()
+    void LoadBattleHud() //loads battle UI and background, then calls spriteEnter()
+    {
+        SpriteEnter();
+    }
+
+    void SpriteEnter() // put sprites on the field
     {
 
     }
+
+    void ActionChoice() // fighters choose their next action
+    {
+
+    }
+
+    void ResolveTurn() // actions take place
+    {
+
+    }
+
+    void AutoResolveTurn() // for sneak attack
+    {
+
+    }
+
+    void EndBattle() // experience and loot at the end
+    {
+
+    }
+
 }

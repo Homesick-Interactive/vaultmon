@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BattleHUG
+    uniqueID: 3293535247
+    locked: 0

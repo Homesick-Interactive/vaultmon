@@ -47,4 +47,33 @@ public class CombatPrototype : MonoBehaviour
 
     }
 
+    int DealDamage(int attackDamage, int fighterPower, int targetDefense, float[] damageModifiers)
+    {
+        float floatDamage = 0;
+        float finalMultiplier = 1;
+        floatDamage = attackDamage * (fighterPower - targetDefense);
+
+        //adds each multiplier in damageModifiers to finalMultiplier
+        for(int i = 0; i < damageModifiers.Length; i++)
+        {
+            finalMultiplier = finalMultiplier + damageModifiers[i];
+        }
+
+        //bounds finalMultiplier between 0 and 10
+        if(finalMultiplier > 0)
+        {
+            finalMultiplier = 0;
+        }
+        else if(finalMultiplier > 10)
+        {
+            finalMultiplier = 10;
+        }
+
+        //multiplies floatDamage by combined damageMultipliers
+        floatDamage = floatDamage * finalMultiplier;
+
+        int output = Mathf.FloorToInt(floatDamage);
+        return output;
+    }
+
 }
